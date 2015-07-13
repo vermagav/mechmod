@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<title>403 Forbidden</title>
+<style fprolloverstyle>A:hover {color: #FFFF00; text-decoration: underline}
+</style>
+</head>
+
+<body link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" style="font-family: Verdana; font-size: 8pt" text="#FF9933" bgcolor="#000000">
+
+<hr color="#FF9933" align="left" width="30%">
+<h3>:: MechMod :: Auto-report ::</h3>
+<hr color="#FF9933" align="left" width="30%">
+<h3>Error 403!</h3>
+<h5>Forbidden, access to this page has been denied. Your details have been logged.</h5>
+<p>[ Homepage: <a href="http://www.mechmod.com">www.mechmod.com</a> ]</p>
+<p>&nbsp;</p>
+<p>-----------------------</p>
+<p>User details:</p>
+<p>
+<!--#echo var="REMOTE_ADDR" -->
+<br><!--#echo var="REDIRECT_STATUS" -->
+<br><!--#echo var="HTTP_USER_AGENT" -->
+<br><!--#echo var="HTTP_REFERER" -->
+<br><!--#echo var="REQUEST_URI" -->
+</p>
+
+</body>
+
+</html>
+
